@@ -8,7 +8,7 @@ int main() {
       cout << a << endl << b << endl;
       for (int i=2; i < n; i++) {
          c=a+b;
-         b=a;
+         a=b;
          b=c:
          cout << c << endl;
       }
